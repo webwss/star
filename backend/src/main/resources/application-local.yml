@@ -5,3 +5,10 @@ spring:
     username: root
     password: 123456
 
+  data:
+    redis:
+      database: 0
+      host: 123.60.29.10
+      port: 6379
+      password: 123456
+      timeout: 60000
