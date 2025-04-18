@@ -3,7 +3,6 @@ package cn.webwss.backend.common;
 /**
  * 返回工具类
  *
- * @author pine
  */
 public class ResultUtils {
 

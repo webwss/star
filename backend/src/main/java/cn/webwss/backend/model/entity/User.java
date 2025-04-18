@@ -7,10 +7,6 @@ import lombok.Data;
 
 import java.io.Serializable;
 
-/**
- * 
- * @TableName user
- */
 @TableName(value ="user")
 @Data
 public class User implements Serializable {

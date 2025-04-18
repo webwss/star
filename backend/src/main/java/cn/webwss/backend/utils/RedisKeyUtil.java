@@ -3,9 +3,7 @@ package cn.webwss.backend.utils;
 
 import cn.webwss.backend.constant.ThumbConstant;
 
-/**
- * @author pine
- */
+
 public class RedisKeyUtil {
 
     public static String getUserThumbKey(Long userId) {
@@ -13,5 +11,8 @@ public class RedisKeyUtil {
     }
 
 
+    public static String getTempThumbKey(String time) {
+        return ThumbConstant.TEMP_THUMB_KEY_PREFIX.formatted(time);
+    }
 
 }

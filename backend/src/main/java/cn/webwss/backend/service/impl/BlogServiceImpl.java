@@ -25,9 +25,6 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 
-/**
- * @author pine
- */
 @Service
 public class BlogServiceImpl extends ServiceImpl<BlogMapper, Blog>
         implements BlogService {

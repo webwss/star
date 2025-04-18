@@ -8,9 +8,6 @@ import jakarta.servlet.http.HttpServletRequest;
 
 import java.util.List;
 
-/**
- * @author pine
- */
 public interface BlogService extends IService<Blog> {
 
 
