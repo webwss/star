@@ -1,0 +1,19 @@
+spring:
+  application.name: backend
+  mvc:
+    servlet:
+      path: /api
+  profiles:
+    active: local
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+server:
+  port: 8080
